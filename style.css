@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header, .footer {
+    background: #1F2937;
+}
+
+header {
+    padding: 1em 13em;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.logo-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+}
+
+a {
+    font-size: 18PX;
+    text-decoration: none;
+    color: #E5E7EB
+}
