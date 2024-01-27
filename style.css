@@ -12,7 +12,7 @@ header, .footer {
 }
 
 header {
-    padding: 1em 13em;
+    padding: 1rem 13rem;
 }
 
 .logo {
@@ -25,16 +25,65 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    margin-bottom: 5rem;
 }
 
 ul {
     list-style: none;
     display: flex;
-    gap: 1.5em;
+    gap: 1.5rem;
 }
 
 a {
-    font-size: 18PX;
+    font-size: 18px;
     text-decoration: none;
     color: #E5E7EB
+}
+
+.upper-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 5rem;
+}
+
+.upper-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    padding: 0;
+}
+
+.upper-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 0.05rem 0;
+}
+
+.upper-button {
+    background: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6vw;
+    height: 4vh;
+    margin: 1rem 0;
+}
+
+.but1 {
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #3882F6;
+    border: none;
+}
+
+.upper-image-placeholder {
+    background: #6d747e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 20vh;
 }
