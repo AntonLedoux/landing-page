@@ -107,7 +107,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     gap: 8rem;
     margin-top: 2rem;
 }
@@ -123,7 +122,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     gap: 8rem;
     margin-top: 0.5rem;
 }
