@@ -149,6 +149,7 @@ a {
     color: #1F2937;
     font-style: italic;
     font-size: 36px;
+    font-weight: lighter;
     width: 40vw;
 }
 
@@ -158,4 +159,35 @@ a {
     display: flex;
     width: 40vw;
     align-self:flex-end;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem 10rem;
+    padding: 4rem 8rem;
+    background: #3882F6;
+    border-radius: 8px;
+}
+
+.action-title {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+.action-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.but2 {
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #3882F6;
+    border: 2px solid #f9faf8;
+    padding: 8px 20px;
+    border-radius: 8px;
 }
